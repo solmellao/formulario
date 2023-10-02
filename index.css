@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  background-image: url('fondo.png');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+}
+
+.form {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form a {
+  color: white;
+  text-decoration: none;
+}
+
+.form a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form .botons {
+  width: 54%;
+  background:#24303c;
+  border: 1px solid #1f53c5;
+  border-radius: 0 5px 5px 0;
+  padding: 10 px;
+  color: white;
+  margin: 10px 0;
+  font-size: 27px;
+}
+
+
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('fondo.png');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  background: white;
+ color: white; 
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+ 
+}
+
+.control {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form .botons {
+  width: 54%;
+  background: #24303c;
+  border: 1px solid #1f53c5;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  color: white;
+  margin: 10px 0;
+  font-size: 27px;
+}
+
+.form {
+  width: 300px;
+  padding: 20px;
+  background-color: #24303c;
+  border-radius: 5px;
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #286090;
+} */
